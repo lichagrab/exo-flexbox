@@ -1,0 +1,26 @@
+
+body{width: 1200px;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border: solid 1px #999;
+}
+.box1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    background-color: blue;
+width: 400px;
+height: 400px;
+
+}
+.box2{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(157, 157, 180);
+}

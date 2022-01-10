@@ -1,0 +1,51 @@
+body {width: 1900px;
+    margin: 0 auto;}
+   #logo {max-width: 100px;}
+    
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ nav ul li{
+    margin-right: 25px;
+}
+
+nav {
+    border: solid 1px #999;
+}
+.section1{
+    flex-direction: column;
+    background-color: brown;
+
+}
+
+    #image1{ display: flex;
+        align-content:flex-start ;
+ }
+    .box1{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+       
+        background-color: blue;
+    width: 400px;
+    height: 400px;}
+
+    #image2{ display: flex;
+        justify-content:flex-end;
+    align-items:flex-end;
+
+}
+
+   
